@@ -128,6 +128,9 @@ USE_DEVICE_SPECIFIC_DATASERVICES := true
 # SDClang
 TARGET_USE_SDCLANG := true
 
+# Set buildtype official  
+NUCLEAR_BUILDTYPE := OFFICIAL
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
